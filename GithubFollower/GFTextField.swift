@@ -35,6 +35,8 @@ class GFTextField: UITextField {
         autocorrectionType = .no
         
         placeholder = "Enter a username"
+        keyboardType = .default
+        returnKeyType = .go
     }
 
 }
