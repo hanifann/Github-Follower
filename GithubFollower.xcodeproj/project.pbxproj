@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D575CE6C2B43DE6300447B82 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D575CE6B2B43DE6300447B82 /* SearchViewController.swift */; };
+		D575CE6E2B43DE8D00447B82 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D575CE6D2B43DE8D00447B82 /* FavoriteViewController.swift */; };
 		D5D539692B43CA1C0099DF3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D539682B43CA1C0099DF3E /* AppDelegate.swift */; };
 		D5D5396B2B43CA1C0099DF3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D5396A2B43CA1C0099DF3E /* SceneDelegate.swift */; };
 		D5D5396D2B43CA1C0099DF3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D5396C2B43CA1C0099DF3E /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D575CE6B2B43DE6300447B82 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		D575CE6D2B43DE8D00447B82 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		D5D539652B43CA1C0099DF3E /* GithubFollower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubFollower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D539682B43CA1C0099DF3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5D5396A2B43CA1C0099DF3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				D5D539712B43CA1D0099DF3E /* Assets.xcassets */,
 				D5D539732B43CA1D0099DF3E /* LaunchScreen.storyboard */,
 				D5D539762B43CA1D0099DF3E /* Info.plist */,
+				D575CE6B2B43DE6300447B82 /* SearchViewController.swift */,
+				D575CE6D2B43DE8D00447B82 /* FavoriteViewController.swift */,
 			);
 			path = GithubFollower;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			files = (
 				D5D5396D2B43CA1C0099DF3E /* ViewController.swift in Sources */,
 				D5D539692B43CA1C0099DF3E /* AppDelegate.swift in Sources */,
+				D575CE6C2B43DE6300447B82 /* SearchViewController.swift in Sources */,
 				D5D5396B2B43CA1C0099DF3E /* SceneDelegate.swift in Sources */,
+				D575CE6E2B43DE8D00447B82 /* FavoriteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
