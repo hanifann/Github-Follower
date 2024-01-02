@@ -11,6 +11,7 @@
 		D575CE6E2B43DE8D00447B82 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D575CE6D2B43DE8D00447B82 /* FavoriteViewController.swift */; };
 		D5CD805E2B442E3B000577A9 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CD805D2B442E3B000577A9 /* GFButton.swift */; };
 		D5CD80602B44313E000577A9 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CD805F2B44313E000577A9 /* GFTextField.swift */; };
+		D5CD80622B443BA5000577A9 /* FollowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CD80612B443BA5000577A9 /* FollowerViewController.swift */; };
 		D5D539692B43CA1C0099DF3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D539682B43CA1C0099DF3E /* AppDelegate.swift */; };
 		D5D5396B2B43CA1C0099DF3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D5396A2B43CA1C0099DF3E /* SceneDelegate.swift */; };
 		D5D5396D2B43CA1C0099DF3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D5396C2B43CA1C0099DF3E /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 		D575CE6D2B43DE8D00447B82 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		D5CD805D2B442E3B000577A9 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		D5CD805F2B44313E000577A9 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		D5CD80612B443BA5000577A9 /* FollowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerViewController.swift; sourceTree = "<group>"; };
 		D5D539652B43CA1C0099DF3E /* GithubFollower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubFollower.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D539682B43CA1C0099DF3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5D5396A2B43CA1C0099DF3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				D575CE6D2B43DE8D00447B82 /* FavoriteViewController.swift */,
 				D5CD805D2B442E3B000577A9 /* GFButton.swift */,
 				D5CD805F2B44313E000577A9 /* GFTextField.swift */,
+				D5CD80612B443BA5000577A9 /* FollowerViewController.swift */,
 			);
 			path = GithubFollower;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5CD80622B443BA5000577A9 /* FollowerViewController.swift in Sources */,
 				D5D5396D2B43CA1C0099DF3E /* ViewController.swift in Sources */,
 				D5D539692B43CA1C0099DF3E /* AppDelegate.swift in Sources */,
 				D5CD805E2B442E3B000577A9 /* GFButton.swift in Sources */,
