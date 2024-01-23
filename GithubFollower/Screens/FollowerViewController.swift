@@ -17,14 +17,13 @@ class FollowerViewController: UIViewController {
         view.backgroundColor = .systemBackground
         navigationController?.navigationBar.prefersLargeTitles = true
         
-        NetworkManager.shared.getFollower(for: username, page: 1) { followers, errorMessage in
-            guard let followers = followers else {
-                self.presentGFAlertOnMainThread(title: "Bad Stuff Happen", message: errorMessage!.rawValue, buttonTitle: "Ok")
-                return
+        NetworkManager.shared.getFollower(for: username, page: 1) { result in
+            switch result {
+            case .success(let success):
+                print(success)
+            case .failure(let failure):
+                self.presentGFAlertOnMainThread(title: "Bad Stuff Happen", message: failure.rawValue, buttonTitle: "Ok")
             }
-            
-            print("Followers.count = \(followers.count)")
-            print(followers)
         }
     }
     
