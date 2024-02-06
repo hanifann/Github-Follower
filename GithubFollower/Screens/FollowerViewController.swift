@@ -95,7 +95,6 @@ extension FollowerViewController: UICollectionViewDelegate {
         if(offsetY > contentHeight - height) {
             guard hasMoreFollowers else { return }
             page += 1
-            print("\(page)")
             getFollowers(username: username, page: page)
         }
     }
