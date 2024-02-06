@@ -34,7 +34,7 @@ class FollowerViewController: UIViewController {
     }
     
     func configureCollectionView() {
-        collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: createThreeColumnFlowLayout())
+        collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: UIHelper.createThreeColumnFlowLayout(in: view))
         view.addSubview(collectionView)
         collectionView.backgroundColor = .systemBackground
         collectionView.register(FollowersCell.self, forCellWithReuseIdentifier: FollowersCell.reuseId)
@@ -47,7 +47,10 @@ class FollowerViewController: UIViewController {
     }
     
     func getFollowers() {
-        NetworkManager.shared.getFollower(for: username, page: 1) { result in
+        NetworkManager.shared.getFollower(for: username, page: 1) {[weak self] result in
+            guard let self = self else {return}
+            
+            
             switch result {
             case .success(let followers):
                 self.followers = followers
@@ -57,20 +60,6 @@ class FollowerViewController: UIViewController {
                 self.presentGFAlertOnMainThread(title: "Bad Stuff Happen", message: failure.rawValue, buttonTitle: "Ok")
             }
         }
-    }
-    
-    func createThreeColumnFlowLayout() -> UICollectionViewLayout {
-        let width = view.bounds.width
-        let padding: CGFloat = 12
-        let minimumItemSpacing: CGFloat = 10
-        let availableWidth = width - (padding * 2) - (minimumItemSpacing * 2)
-        let itemWidth = availableWidth / 3
-        
-        let flowLayout = UICollectionViewFlowLayout()
-        flowLayout.sectionInset = UIEdgeInsets(top: padding, left: padding, bottom: padding, right: padding)
-        flowLayout.itemSize = CGSize(width: itemWidth, height: itemWidth + 40)
-        
-        return flowLayout
     }
     
     func configureDataSource() {

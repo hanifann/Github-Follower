@@ -28,6 +28,7 @@
 		DB3D6B222B6F89B200C53C63 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3D6B212B6F89B100C53C63 /* ErrorMessage.swift */; };
 		DB3D6B252B6F8A0000C53C63 /* FollowersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3D6B242B6F8A0000C53C63 /* FollowersCell.swift */; };
 		DB3D6B272B6F8A7F00C53C63 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3D6B262B6F8A7F00C53C63 /* GFAvatarImageView.swift */; };
+		DB830F692B7256AA0002C42A /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB830F682B7256AA0002C42A /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		DB3D6B212B6F89B100C53C63 /* ErrorMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		DB3D6B242B6F8A0000C53C63 /* FollowersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersCell.swift; sourceTree = "<group>"; };
 		DB3D6B262B6F8A7F00C53C63 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		DB830F682B7256AA0002C42A /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				DB3D6B212B6F89B100C53C63 /* ErrorMessage.swift */,
+				DB830F682B7256AA0002C42A /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				D5CD80622B443BA5000577A9 /* FollowerViewController.swift in Sources */,
 				DB3D6B1E2B6F87FA00C53C63 /* Follower.swift in Sources */,
 				DB3D6B272B6F8A7F00C53C63 /* GFAvatarImageView.swift in Sources */,
+				DB830F692B7256AA0002C42A /* UIHelper.swift in Sources */,
 				D5D5396D2B43CA1C0099DF3E /* ViewController.swift in Sources */,
 				D5E689522B5FB23A00B169C5 /* UIViewController+Ext.swift in Sources */,
 				DB3D6B222B6F89B200C53C63 /* ErrorMessage.swift in Sources */,
