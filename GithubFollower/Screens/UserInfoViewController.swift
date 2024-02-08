@@ -21,6 +21,19 @@ class UserInfoViewController: UIViewController {
         )
         navigationItem.rightBarButtonItem = doneButton
         navigationItem.title = username
+        
+        NetworkManager.shared.getUserInfo(for: username) { [weak self] result in
+            switch result {
+            case .success(let user):
+                print(user)
+            case .failure(let failure):
+                self?.presentGFAlertOnMainThread(
+                    title: "Something went wrong",
+                    message: failure.rawValue,
+                    buttonTitle: "Ok"
+                )
+            }
+        }
     }
     
     @objc func dismissViewController() {
