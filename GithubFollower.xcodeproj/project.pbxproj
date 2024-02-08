@@ -22,6 +22,7 @@
 		D5E689502B5FACA900B169C5 /* GFAllertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E6894F2B5FACA900B169C5 /* GFAllertViewController.swift */; };
 		D5E689522B5FB23A00B169C5 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E689512B5FB23A00B169C5 /* UIViewController+Ext.swift */; };
 		D5E689542B5FB50000B169C5 /* GFContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E689532B5FB50000B169C5 /* GFContainerView.swift */; };
+		DB0D53142B74D868007CC5CF /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0D53132B74D868007CC5CF /* UserInfoViewController.swift */; };
 		DB3D6B162B6F87EB00C53C63 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3D6B152B6F87EB00C53C63 /* NetworkManager.swift */; };
 		DB3D6B1D2B6F87FA00C53C63 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3D6B1B2B6F87FA00C53C63 /* User.swift */; };
 		DB3D6B1E2B6F87FA00C53C63 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3D6B1C2B6F87FA00C53C63 /* Follower.swift */; };
@@ -50,6 +51,7 @@
 		D5E6894F2B5FACA900B169C5 /* GFAllertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAllertViewController.swift; sourceTree = "<group>"; };
 		D5E689512B5FB23A00B169C5 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		D5E689532B5FB50000B169C5 /* GFContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFContainerView.swift; sourceTree = "<group>"; };
+		DB0D53132B74D868007CC5CF /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		DB3D6B152B6F87EB00C53C63 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		DB3D6B1B2B6F87FA00C53C63 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DB3D6B1C2B6F87FA00C53C63 /* Follower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				D575CE6B2B43DE6300447B82 /* SearchViewController.swift */,
 				D575CE6D2B43DE8D00447B82 /* FavoriteViewController.swift */,
 				D5CD80612B443BA5000577A9 /* FollowerViewController.swift */,
+				DB0D53132B74D868007CC5CF /* UserInfoViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				DB3D6B272B6F8A7F00C53C63 /* GFAvatarImageView.swift in Sources */,
 				DB830F692B7256AA0002C42A /* UIHelper.swift in Sources */,
 				D5D5396D2B43CA1C0099DF3E /* ViewController.swift in Sources */,
+				DB0D53142B74D868007CC5CF /* UserInfoViewController.swift in Sources */,
 				D5E689522B5FB23A00B169C5 /* UIViewController+Ext.swift in Sources */,
 				DB3D6B222B6F89B200C53C63 /* ErrorMessage.swift in Sources */,
 				D5E689502B5FACA900B169C5 /* GFAllertViewController.swift in Sources */,
