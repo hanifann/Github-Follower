@@ -22,6 +22,7 @@
 		D5E689502B5FACA900B169C5 /* GFAllertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E6894F2B5FACA900B169C5 /* GFAllertViewController.swift */; };
 		D5E689522B5FB23A00B169C5 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E689512B5FB23A00B169C5 /* UIViewController+Ext.swift */; };
 		D5E689542B5FB50000B169C5 /* GFContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E689532B5FB50000B169C5 /* GFContainerView.swift */; };
+		DB00C5012B78A1860048A746 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00C5002B78A1860048A746 /* GFItemInfoView.swift */; };
 		DB0D53142B74D868007CC5CF /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0D53132B74D868007CC5CF /* UserInfoViewController.swift */; };
 		DB0D53162B74DECC007CC5CF /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0D53152B74DECC007CC5CF /* GFError.swift */; };
 		DB0D53182B7502C8007CC5CF /* GFUserInfoHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0D53172B7502C8007CC5CF /* GFUserInfoHeaderViewController.swift */; };
@@ -54,6 +55,7 @@
 		D5E6894F2B5FACA900B169C5 /* GFAllertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAllertViewController.swift; sourceTree = "<group>"; };
 		D5E689512B5FB23A00B169C5 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		D5E689532B5FB50000B169C5 /* GFContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFContainerView.swift; sourceTree = "<group>"; };
+		DB00C5002B78A1860048A746 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
 		DB0D53132B74D868007CC5CF /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		DB0D53152B74DECC007CC5CF /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 		DB0D53172B7502C8007CC5CF /* GFUserInfoHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderViewController.swift; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 			children = (
 				D5E689532B5FB50000B169C5 /* GFContainerView.swift */,
 				DBFFF14E2B738C1D0000BF43 /* GFEmptyStateView.swift */,
+				DB00C5002B78A1860048A746 /* GFItemInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				DB0D53142B74D868007CC5CF /* UserInfoViewController.swift in Sources */,
 				D5E689522B5FB23A00B169C5 /* UIViewController+Ext.swift in Sources */,
 				D5E689502B5FACA900B169C5 /* GFAllertViewController.swift in Sources */,
+				DB00C5012B78A1860048A746 /* GFItemInfoView.swift in Sources */,
 				D5D539692B43CA1C0099DF3E /* AppDelegate.swift in Sources */,
 				D5CD805E2B442E3B000577A9 /* GFButton.swift in Sources */,
 				D5E689542B5FB50000B169C5 /* GFContainerView.swift in Sources */,
