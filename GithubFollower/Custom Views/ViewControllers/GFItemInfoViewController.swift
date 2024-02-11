@@ -18,6 +18,8 @@ class GFItemInfoViewController: UIViewController {
         super.viewDidLoad()
 
         configureBackgroundView()
+        layoutUI()
+        configureStackView()
     }
     
     private func configureBackgroundView() {
