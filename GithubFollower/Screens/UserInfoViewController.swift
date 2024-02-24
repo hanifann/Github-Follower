@@ -14,6 +14,7 @@ class UserInfoViewController: UIViewController {
     var headerView = UIView()
     var itemViewOne = UIView()
     var itemViewTwo = UIView()
+    var dateLabel = GFBodyLabel(textAlignment: .center)
     var itemViews: [UIView] = []
 
     override func viewDidLoad() {
@@ -47,6 +48,7 @@ class UserInfoViewController: UIViewController {
                     self.add(from: GFUserInfoHeaderViewController(user: user), to: self.headerView)
                     self.add(from: GFRepoItemViewController(user: user), to: self.itemViewOne)
                     self.add(from: GFFollowerItemViewController(user: user), to: self.itemViewTwo)
+                    self.dateLabel.text = "GitHub Since \(user.createdAt.convertToDisplayFormat())"
                 }
             case .failure(let failure):
                 self.presentGFAlertOnMainThread(
@@ -61,7 +63,7 @@ class UserInfoViewController: UIViewController {
     func layoutUI() {
         let padding: CGFloat = 20
         let itemHeight: CGFloat = 140
-        itemViews = [headerView, itemViewOne, itemViewTwo]
+        itemViews = [headerView, itemViewOne, itemViewTwo, dateLabel]
         
         for itemView in itemViews {
             view.addSubview(itemView)
@@ -82,7 +84,10 @@ class UserInfoViewController: UIViewController {
             itemViewOne.heightAnchor.constraint(equalToConstant: itemHeight),
             
             itemViewTwo.topAnchor.constraint(equalTo: itemViewOne.bottomAnchor, constant: padding),
-            itemViewTwo.heightAnchor.constraint(equalToConstant: itemHeight)
+            itemViewTwo.heightAnchor.constraint(equalToConstant: itemHeight),
+            
+            dateLabel.topAnchor.constraint(equalTo: itemViewTwo.bottomAnchor, constant: padding),
+            dateLabel.heightAnchor.constraint(equalToConstant: 18)
         ])
     }
     
